@@ -1,5 +1,5 @@
 ---
-title: "Lab 2: Exploration by visualization: the Galton dataset"
+title: "Lab 2: Exploration by visualization: the streaming movies dataset"
 author: "Fill in your full name"
 date: "`r Sys.Date()`"
 documentclass: article
@@ -44,7 +44,7 @@ knitr::opts_chunk$set(
 suppressPackageStartupMessages(library(tidyverse))
 
 # Load dataset
-galton <- read_rds("galton.rds")
+streaming <- read_csv("streaming.csv")
 ```
 
 * * *
